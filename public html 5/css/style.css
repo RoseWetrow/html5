@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  system-ui;
+}
+
+.heading-practical-work-1{
+    margin:20px;
+}
+
+.result-practical-work-1 div h3{
+    margin-left: 20px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.403);
+}
+
+body{
+    /* margin: 10px; */
+    background-color: #ffffff00;
+    
+}
+
+.cards{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.card{
+    /* border: 2px groove; */
+    margin: 25px;
+    padding: 20px;
+    background-color: #6fa9fb0c;
+    width: 30%;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #0303032f;
+
+}
+
+.card img{
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+.card h5{
+    font-size: 20px;
+}
+
+.card p{
+    font-size: 15px;
+}
+
+.pCars{
+    margin: 20px;
+    font-size: 15px;
+}
+
+.pCars ul{
+    list-style-type: square;
+}
+
+/* ////////////////// Практическая 2  */
+.result-console{
+    /* display: none; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px 20px;
+    background-color: #242424;
+    box-sizing: border-box;
+}
+
+.result-console-heading{
+    margin-bottom: 20px;
+    color:#fff;
+}
+
+.result-console p {
+    color: #fff;
+}
+
+.result-console p span{
+    color: #fa0404
+} 
+
+.show-result-console{
+    display: block;
+}
